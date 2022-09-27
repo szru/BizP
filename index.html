@@ -4,20 +4,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>안녕하세요. 박승범입니다.</title>
-</head>계층적구조를 가진 백엔드
-
+    <meta name="keywords" content="ga, ITblog, CI">
+    <meta name="author" content="ParkSeungbeom">
+    <title>Welcome to SeungBeom's site</title>
+</head>
 <body>
-    <h1>20171166 박승범 Profile</h1>
-    <h2>동의대학교 경영정보학과</h2>
-    1. 사람은 잠을 안자고 3일은 버틸 수 있다던데 왜 저는 하루도 못버틸까요 <br><br>
-    2. 데이터분석 : GA를 이용한 데이터기반 의사결정 능력 <br>
-    3. 서비스기획 : 환경분석 및 웹서비스 기획 능력 <br>
-    4. 머신 러닝 : 머신러닝 알고리즘 이해도와 빅데이터 분석 <br>
-    <hr>
-    <h3>취미</h3>
-    1. 웨이트 <br>
-    2. 골프시작했는데 안맞아요 <br> 
+    <!-- header+nav+section+article*3+aside^footer -->   
+    <header>
+        <img src="./images/logo.jpg" alt="CI">
+        <h1>Seungbeom's site</h1>
+    </header>
     
+    <nav>
+        <!--   ul>li*4{메인메뉴$$}    -->
+        <ul>
+            <li>소개</li>
+            <li>쇼핑</li>
+            <li>패키지</li>
+            <li>커뮤니티</li>
+        </ul>
+        <ol type="i">
+            <li>연습01</li>
+            <li>연습02</li>
+            <li>연습03</li>
+        </ol>
+
+    </nav>
+    <section></section>
+    <article>
+        <div class="bigdata">
+            <img src="./images/bigdata.jpg" alt="mainimage"width="50%">
+        </div>
+        
+        <div class="action">
+            <h2>나의 대외활동 이력</h2>
+            <table border="1">
+                <tr>
+                    <th>기간</th>
+                    <th>대외활동기록</th>
+                    <th>주최</th>
+                </tr>
+                <tr>
+                    <td>08.01</td>
+                    <td>마케팅 경진대회</td>
+                    <td>정보학회</td>
+                </tr>
+                <tr>
+                    <td>05.06</td>
+                    <td>교육프로그램</td>
+                    <td>동의대학교</td>
+                </tr>
+                <tr>
+                    <td>09.01</td>
+                    <td>목표부위설정</td>
+                    <td>PG</td>
+                </tr>
+            </table>
+        </div>
+        
+    </article>
+    <br><br>
+
+
+    <article>
+        <div class="media">
+            <h2>좋아하는음악</h2>    
+            <audio src="./media/music01.mp3" controls></audio>
+            <h2>북극곰 환경을 살리자</h2>
+            <video src="./media/movie.mp4" controls width="50%"></video>
+            <h2>유튜브 아무거나</h2>
+            <p align="middle"><iframe width="887" height="499" src="https://www.youtube.com/embed/49jzKoHvHVQ" title="이강인을 싫어하던 사람들조차 팬으로 만들어버린 경기 댓글 반응 모음ㄷㄷ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+        </div>
+    </article>
+    <article>
+        <div class="gallery"></div>
+        <iframe width="70%" height = "400" src="./gallery.html" frameborder="0"></iframe>
+    </article>
+
+    <aside>
+    <div class="link">
+        <a href="http://mis.deu.ac.kr">경영정보학과사이트</a> <br>
+        <a href="http://./gallery.html">갤러리</a> <br>
+        <a href=""></a>
+    </div>
+    
+        
+    </aside>
+
+
+    <footer>저작권과 주소</footer>     
 </body>
-</html> 
+</html>
